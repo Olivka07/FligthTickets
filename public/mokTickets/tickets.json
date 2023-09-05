@@ -1,0 +1,60 @@
+[{
+    "price": 21032,
+    "arrive": {
+        "time": "09:25",
+        "city": "WO, Владивосток",
+        "date": "9 окт 2018, Пт"
+    },
+    "departure": {
+        "time": "16:35",
+        "city": "Тель-Авив, TLV",
+        "date": "11 окт 2018, Сб"
+    },
+    "transfer": "1 пересадка",
+    "currency": "rub"
+},
+{
+    "price": 20032,
+    "arrive": {
+        "time": "09:25",
+        "city": "WO, Владивосток",
+        "date": "9 окт 2018, Пт"
+    },
+    "departure": {
+        "time": "16:35",
+        "city": "Тель-Авив, TLV",
+        "date": "11 окт 2018, Сб"
+    },
+    "transfer": "2 пересадки",
+    "currency": "rub"
+},
+{
+    "price": 21333,
+    "arrive": {
+        "time": "09:25",
+        "city": "WO, Владивосток",
+        "date": "9 окт 2018, Пт"
+    },
+    "departure": {
+        "time": "16:35",
+        "city": "Тель-Авив, TLV",
+        "date": "11 окт 2018, Сб"
+    },
+    "transfer": "3 пересадки",
+    "currency": "rub"
+},
+{
+    "price": 20000,
+    "arrive": {
+        "time": "09:25",
+        "city": "WO, Владивосток",
+        "date": "9 окт 2018, Пт"
+    },
+    "departure": {
+        "time": "16:35",
+        "city": "Тель-Авив, TLV",
+        "date": "11 окт 2018, Сб"
+    },
+    "transfer": "Без пересадок",
+    "currency": "rub"
+}]

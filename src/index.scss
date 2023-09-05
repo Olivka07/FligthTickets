@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+$bgColor: rgb(233, 243, 243);
+html {
+    height: 100vh;
+}
+body {
+    height: inherit;
+    background-color: $bgColor;
+}
+.header {
+    background-color: $bgColor;
+    padding: 50px;
+    height: auto;
+}
+.content {
+    background-color: $bgColor;
+}
+
+.ant-row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  
+  .ant-col:first-child {
+      padding-left: 0 !important;
+  }
+  
+  .ant-col:last-child {
+    padding-right: 0 !important;
+  }
+
+
+
+  .active {
+    background-color: rgb(58, 114, 247) !important;
+    color: white !important;
+    border: 0 !important;
+  }
+
+.filter__title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.filter__currency {
+    margin-bottom: 40px;
+}
+
+.filter {
+    background-color: white;
+    box-shadow: 0px 0px 11px 5px ghostwhite;
+    padding: 10px;
+    border-radius: 2%;
+}
+.filter__transfer {
+    display: flex;
+    flex-direction: column;
+}
+.ant-checkbox-wrapper:hover {
+    background-color: rgba(177, 202, 253, 0.547);
+}
+.ant-checkbox-wrapper {
+    display: flex;
+} 
+.helper-hover {
+    position: absolute;
+    left: 70%;
+    color: rgb(22, 56, 225);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: white;
+    border-radius: 1%;
+    box-shadow: 0px 0px 11px 5px ghostwhite;
+}
+.card__left {
+    display: grid;
+    justify-items: center;
+    border-right: 2px solid rgba(97, 96, 96, 0.095);
+}
+
+
+.card__image {
+    max-height: 100px;
+}
+
+.card__btn {
+    width: 150px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border: 0;
+    box-shadow: 0px 0px 2px 1px rgba(255, 0, 0, 0.493);
+    border-radius: 5px;
+}
+.card__button {
+    padding: 10px;
+}
+
+.card__right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+.card__date {
+    padding: 20px;
+}
+
+.card__time {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.card__date-date {
+    color: rgba(169, 164, 164, 0.784);
+}
+
+.card__imageplane {
+    max-width: 100px;
+}
+.card__plane {
+    padding: 20px;
+    display: grid;
+    grid-template: auto;
+    justify-content: center;
+}
+.card__counttransfers {
+    height: auto;
+    align-self: flex-end;
+}
+.helper-hover:hover {
+    cursor: pointer;
+}
+
